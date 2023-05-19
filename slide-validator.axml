@@ -1,8 +1,8 @@
 <view class="slide-box">
-    <view class="canvas_slide">
+    <view class="canvas_slide" style="width:{{width < 350 ? 350 : width}}rpx">
         <!-- 左侧进度条 -->
         <view class="canvas_width"
-              style="width:{{positionX}}rpx;">
+              style="width:{{positionX}}rpx;background-color:{{activeColor}};">
         </view>
 
         <!-- 滑块 -->
@@ -13,6 +13,7 @@
                 onTouchCancel="end"
                 style="left:{{positionX}}rpx;"
         >
+            <slot name="icon"></slot>
         </view>
 
         <!-- 请按住滑块，拖动到最右边 -->
