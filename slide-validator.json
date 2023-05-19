@@ -1,6 +1,4 @@
 {
   "component": true,
-  "usingComponents": {
-    "icon": "antd-mini/less//Icon/index"
-  }
+  "usingComponents": {}
 }
