@@ -1,0 +1,34 @@
+<view class="slide-box">
+    <view class="canvas_slide">
+        <!-- 左侧进度条 -->
+        <view class="canvas_width"
+              style="width:{{positionX}}rpx;">
+        </view>
+
+        <!-- 滑块 -->
+        <view
+                class="canvas_kus"
+                onTouchMove="move"
+                onTouchEnd="end"
+                onTouchCancel="end"
+                style="left:{{positionX}}rpx;"
+        >
+        </view>
+
+        <!-- 请按住滑块，拖动到最右边 -->
+        <view class="slide-bar-box">
+            <text>请</text>
+            <text>按</text>
+            <text>住</text>
+            <text>滑</text>
+            <text>块</text>
+            <text>，</text>
+            <text>拖</text>
+            <text>动</text>
+            <text>到</text>
+            <text>最</text>
+            <text>右</text>
+            <text>边</text>
+        </view>
+    </view>
+</view>
