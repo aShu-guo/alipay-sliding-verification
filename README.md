@@ -17,7 +17,7 @@
 - 在需要使用的页面引入组件，例如：
 ```json
  "usingComponents": {
-    "cal": "/calendar/calendar"
+    "slide-validator": "/slide-validator/slide-validator"
   }
 ```
 - 最后在页面添加组件
